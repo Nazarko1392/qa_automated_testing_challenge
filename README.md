@@ -1,2 +1,1 @@
-# qa_automated_testing_challenge
- 
+# framework_test
