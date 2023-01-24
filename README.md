@@ -12,3 +12,27 @@
 
 
 ![](https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/2021-01/quality-assurance_1.jpg?itok=YwEP6R-o)
+
+# Task 2: Selectors.
+## Subtask 1: Searching for selectors on the login pageList all the elements that are on the login page.
+
+| Element | **Login** _XPath selectors_       |
+|---------|:----------------------------------|
+|         |
+| 1       | //input[@id='login']              |
+| 2       | //*[@id='login' or @name='login'] |
+| 3       | //div/input[@type='text']         |
+
+| Element | **Password** _XPath selectors_     |
+|:--------|------------------------------------|
+|         |
+| 1       | //label[@for='password']           |
+| 2       | //div/label[@id='password-label']  |
+| 3       | //div/child::input[@id='password'] |
+
+| Element | **Sign In** _XPath selectors_                                                         |
+|:--------|---------------------------------------------------------------------------------------|
+|         |
+| 1       | //button[@type='submit']/span[contains(text(),'Sign in') or @class='MuiButton-label'] |
+| 2       | //*[@tabindex='0' and @type='submit']                                                 |
+| 3       | //span[@class='MuiTouchRipple-root']                                                  |
