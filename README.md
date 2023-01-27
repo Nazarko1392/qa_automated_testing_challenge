@@ -30,6 +30,14 @@
 | 2       | //div/label[@id='password-label']  |
 | 3       | //div/child::input[@id='password'] |
 
+| Element | **Language** _XPath selectors_             |
+|:--------|--------------------------------------------|
+|         |
+| 1       | //*/form/div/div[2]/div                    |
+| 2       | //ul[@role='listbox']                      |
+| 3       | //ul[@role='listbox']/li[@data-value='pl'] |
+
+
 | Element | **Sign In** _XPath selectors_                                                         |
 |:--------|---------------------------------------------------------------------------------------|
 |         |
