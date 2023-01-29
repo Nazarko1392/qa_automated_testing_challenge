@@ -7,7 +7,7 @@ class Dashboard(BasePage):
     players_button_xpath = '//ul[1]//div[2]/div/span'
     languages_button_xpath = '//*/ul[2]/div[1]'
     sign_out_button_xpath = '//*/ul[2]/div[2]'
-    dev_team_contact_xpath = '//*/main/div[3]/div//div[3]/child::a'
+    dev_team_contact_xpath = '//*[3]/a'
     players_count_xpath = '//*/main/div[2]/div[1]/div'
     matches_count_xpath = '//*/main/div[2]/div[2]'
     reports_counts_xpath = '//*/main/div[2]/div[3]//div'
